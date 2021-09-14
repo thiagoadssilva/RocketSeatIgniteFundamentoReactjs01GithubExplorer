@@ -37,8 +37,26 @@
 
 * Permite que o babel faça a interpretação do código que agora é em react que contém código html, seja convertido para que os navegadores possam apresenta-los.
 
-<hr>
 
-## yarn babel src/index.js --out-file dist/bundle.js
+       yarn babel src/index.js --out-file dist/bundle.js
 
 * Comando que nos permite criar o arquivo bundle.js que é responsável por fazer a conversão do javaScript para os navegadores.
+
+<hr>
+
+## WebPack
+  
+      npm add webpack webpack-cli -D    
+
+* Quando precisamos fazer qualquer importação de arquivo como exemplo: .js, .png, .sass etc.., precisamos de alguém que faça a conversão desses arquivos para que a os navegadores possam ler como exemplo: vai pegar uma arquivo do tipo '.sass' e converter em arquivo CSS. 
+
+<hr>
+
+## Babel Loader
+  
+      npm add babel-loader -D    
+
+* https://github.com/babel/babel-loader
+* Responsável por converter o arquivo de uma maneira que o navegado entenda.
+
+<hr>
