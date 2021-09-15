@@ -60,3 +60,24 @@
 * Responsável por converter o arquivo de uma maneira que o navegado entenda.
 
 <hr>
+
+## webpack-dev-server
+  
+      npm add webpack-dev-server -D    
+
+* Responsável por ficar monitorando qualquer alteração no código e não mais ficar pracisando restartar o projeto.
+
+<hr>
+
+## Style-loader Css-loader
+  
+      npm add style-loader css-loader -D    
+
+* Carregar e converter arquivo css no reactjs
+
+<hr>
+
+## Sass-loader Sass
+  
+      npm add sass-loader node-sass -D
+<hr>
