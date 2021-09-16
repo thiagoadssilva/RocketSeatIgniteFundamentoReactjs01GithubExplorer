@@ -1,5 +1,8 @@
+import { RepositoryList } from './components/RepositoryList';
 import './styles/global.scss';
 
-export function App(){
-    return <h1>thiago jose da silva ok</h1>
+export function App(){ 
+    return (
+        <RepositoryList />
+    );
 }
